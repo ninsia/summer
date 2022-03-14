@@ -1,0 +1,73 @@
+ul a{
+  color: #FFEED9;
+}
+li{
+  display: inline-block;
+  height: 80px;
+  width: 160px;
+  padding: 12px;
+  border-left: 10px white;
+  border-right: 10px white;
+  background-color: #004373;
+  }
+li:hover{
+  background-color: #001AFF;
+  border-style: none;
+  box-shadow: 3px 3px 3px #FF0000;
+  }
+body{
+  width: 800px;
+  height: 400px;
+  color: #FFEED9;
+  background-image: url(xstar.jpg);
+  background-size: 180%;
+  background-repeat: no-repeat;
+  font-family: 'Fredoka', sans-serif;
+}
+div {
+  border: 1px solid white;
+  background-color: #004373;
+  padding: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+  margin-left: 320px;
+  box-shadow: 3px 3px 3px #00FF00;
+}
+table{
+border: 2px;
+width: 100%;
+box-shadow:3px 3px 3px #00FF00;
+}
+td, th{
+  padding: 10px 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color:#004373;
+}
+#cursus{
+  background-color: #FF0000;
+  color: #FFEED9;
+}
+.media{
+  background-color: #000DFF;
+  color: #FFEED9;
+}
+input[type="text"], input[type="tel"], input[type="email"], textarea, select, button{
+display: block;
+margin: 15px 15px;
+width: 255px;
+box-sizing: border-box;
+border-radius: 5px;
+box-shadow: inset 2px 2px 2px #E1FF00;
+}
+textarea{
+  height: 150px;
+  padding: 5px 5px;
+}
+button:active{
+color: #FFEED9;
+background-color: #000000;
+border-radius: 5px;
+box-shadow: 3px 3px 3px #00FF00;
+}
